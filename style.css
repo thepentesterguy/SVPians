@@ -1,0 +1,158 @@
+.navbar {
+    background-color: #65d599;
+    backdrop-filter: blur(16px) saturate(132%);
+    -webkit-backdrop-filter: blur(16px) saturate(132%);
+    background-color: rgba(17, 25, 40, 0.32);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: yellow;
+}
+
+.nav-link:hover {
+    background: none;
+    color: yellow;
+}
+
+body {
+    margin: 2pc;
+    /* background-color: #65d599;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(169.45, 60%, 30%) 0, transparent 55%);
+        -webkit-backdrop-filter: blur(16px) saturate(132%);
+        background-color: rgba(17, 25, 40, 0.32);
+        backdrop-filter: blur(16px) saturate(132%);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125); */
+    background: transparent;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-pills {
+    color: white;
+    background: none;
+}
+
+.nav-link,
+a:visited {
+    color: none;
+}
+
+.nav-link,
+.dropdown-toggle {
+    background: none;
+    color: grey;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: #65d599;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(169.45, 60%, 30%) 0, transparent 55%);
+    backdrop-filter: blur(16px) saturate(132%);
+    -webkit-backdrop-filter: blur(16px) saturate(132%);
+    background-color: rgba(17, 25, 40, 0.32);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgb(45, 199, 233);
+    border-radius: 2pc;
+}
+
+.scrolled {
+    background: none;
+}
+
+.dropdown {
+    width: 50%;
+    height: auto;
+}
+
+.svpians {
+    /* background: #BED433; */
+    background: linear-gradient(to right, #BED433 0%, #11373D 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#carousel {
+    opacity: 0.9;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-caption {
+    color: grey;
+    background-color: black;
+}
+
+#section1 {
+    border: 1px solid green;
+    padding: 2pc;
+    border-radius: 4px;
+    color: grey;
+}
+
+#section1:hover {
+    border: 0.1px solid yellow;
+}
+
+.card {
+    border-radius: 4px;
+    background: linear-gradient(145deg, #4dc671, #5ceb87);
+    box-shadow: 2px 2px 6px #49bb6b,
+        -2px -2px 6px #63fd91;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top {
+    padding-top: 2pc;
+    height: 50%;
+    width: 50%;
+}
+
+.footerLinks,
+.footerLinks a {
+    color: grey;
+}
+
+.footerLinks a:hover {
+    color: yellow;
+    background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    .carouselImg {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.images {
+    height: 33%;
+    width: 33%;
+    padding: 2pc;
+    border-radius: 2px;
+    box-shadow: 5px 0px 7px 0px grey;
+    box-sizing: border-box;
+}
